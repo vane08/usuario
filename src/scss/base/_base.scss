@@ -1,0 +1,89 @@
+html,
+body {
+    // font-family: "Poppins", sans-serif;
+    font-family:var(--font-poppins);
+    font-weight: 600;
+    font-style: normal;
+}
+
+.class-name-share {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #2F2E2E;
+}
+
+.border-color-publications {
+    border-color: #7B5BF2;
+}
+
+.border-color-posts {
+    border-color: #09184D;
+}
+
+.border-color-posts:focus {
+    border-color: #09184D;
+    box-shadow: 0 0 0 0.2rem rgba(9, 24, 77, 0.25);
+}
+
+.letter-subtitulos-share {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bottom-color {
+    background-color: #7B5BF2;
+    border: 2px solid transparent;
+    color: white;
+    /* Cambia el color del texto en estado normal */
+
+}
+
+.otro-bottom-color {
+    background-color: #7B5BF2;
+    border: 2px solid transparent;
+    color: white;
+    /* Cambia el color del texto en estado normal */
+}
+
+.otro-bottom-color:hover {
+    border-color: #7B5BF2;
+    /* Cambia el color del borde al mismo que el fondo en estado de hover */
+    color: #7B5BF2;
+    /* Cambia el color del texto en estado normal */
+}
+
+
+.bottom-color:hover {
+    border-top-color: #7B5BF2;
+    /* Cambia el color del borde al mismo que el fondo en estado de hover */
+    color: #7B5BF2;
+    /* Cambia el color del texto en estado normal */
+}
+
+.text-color-camdev {
+    color: #7B5BF2;
+}
+
+.text-color-camdev-titles {
+    color: #09184D;
+}
+
+.btn_azul_previous_next {
+    background-color: #09184D;
+    border: 2px solid transparent;
+    color: white;
+    /* Cambia el color del texto en estado normal */
+}
+
+.btn_azul_previous_next:hover {
+    border-color: #09184D;
+    /* Cambia el color del borde al mismo que el fondo en estado de hover */
+    color: #09184D;
+    /* Cambia el color del texto en estado de hover */
+}
+
+.color_nav {
+    background: #09184D;
+}
